@@ -1,0 +1,6 @@
+name: MyEconomy
+version: 1.0.0
+main: net.brcdev.myeconomy.MyEconomyPlguin
+author: brc
+depend: [ShopGUIPlus]
+api-version: 1.13
