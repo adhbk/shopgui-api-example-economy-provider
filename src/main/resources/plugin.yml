@@ -1,6 +1,10 @@
 name: MyEconomy
 version: 1.0.0
-main: net.brcdev.myeconomy.MyEconomyPlguin
+main: net.brcdev.myeconomy.MyEconomyPlugin
 author: brc
 depend: [ShopGUIPlus]
 api-version: 1.13
+commands:
+  myeconomy:
+    description: "MyEconomy main command"
+    usage: "/myeconomy"
