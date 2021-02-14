@@ -5,7 +5,9 @@ It shows how to correctly implement an in-memory economy provider which will be 
 Note: This is a very basic implementation of economy and shouldn't be used in production.
 
 ## Building
-`mvn clean package`
+```
+./mvnw clean package
+```
 
 ## Using
 After you build the artifact using Maven command above, you can drop in the plugin to the `plugins` directory of your server along with regular ShopGUI+ plugin and see how it works.
