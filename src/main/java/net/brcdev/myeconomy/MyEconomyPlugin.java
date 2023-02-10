@@ -14,7 +14,7 @@ public class MyEconomyPlugin extends JavaPlugin {
   @Override
   public void onEnable() {
     this.myEconomyProvider = new MyEconomyProvider();
-    getCommand("myeconomy").setExecutor(new MyEconomyCommand(this));
+    getCommand("sp").setExecutor(new MyEconomyCommand(this));
 
     hookIntoShopGUIPlus();
   }

@@ -1,0 +1,6 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/bukkit-plugin.json": "file:///c%3A/Users/Adrien/Documents/Minecraft_dev/shopgui-api-example-economy-provider/src/main/resources/plugin.yml"
+    },
+    "java.configuration.updateBuildConfiguration": "automatic"
+}

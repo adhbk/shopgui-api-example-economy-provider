@@ -14,15 +14,15 @@ public class MyEconomyProvider extends EconomyProvider {
   public MyEconomyProvider() {
     // (Optional, default ones are empty strings)
     // Override fields from superclass to set currency prefix & suffix
-    this.currencyPrefix = "$";
-    this.currencySuffix = "";
+    this.currencyPrefix = "";
+    this.currencySuffix = "SP";
 
     this.playerBalances = new HashMap<>();
   }
 
   @Override
   public String getName() {
-    return "MyEconomy";
+    return "SKILLPOINT";
   }
 
   @Override
